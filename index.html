@@ -4,136 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-      name="description"
-      content="Software engineering| Fullstack developer portfolio for Nicolette, based in South-Africa"
+      name="Portfolio"
+      content="Portfolio project for Nicolette Steenkamp |Software engineer|frontend dev"
     />
-    <link rel="stylesheet" href="style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio software engineer | fullstack developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/498ed3bdb3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Project -Portfolio website for Nicolette Steenkamp</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nicolette Steenkamp</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <br />
-    <h2 class="text-center mt-5">👋 Hi I am</h2>
-    <h1 class="text-center">Nicolette Steenkamp</h1>
-    <h3 class="text-center">
-      🇿🇦 Software engineer, based in South Africa 🇿🇦
-    </h3>
-    <div class="navigation-links">
-      <a
-        href="about.html#contact"
-        class="contact-link"
-        title="Contact Nicolette"
-        >Contact me</a
-      >
-      <a href="about.html" class="about-link" title="about Nicolette"
-        >About me</a
-      >
-    </div>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+      <nav class="d-flex justify-content-between">
+        <div class="logo d-flex d-none d-md-flex" title="homepage">
+          <a href="/">N.Steenkamp</a>
+        </div>
+        <ul>
+          <li class="active">
+            <a href="/" title="homepage">Home</a>
+          </li>
+          <li><a href='/about' title='about me'>About</a></li>
+          <li><a href='/projects' title='projects'>Projects</a></li>
+          <li><a href='/contact' title='contact me'>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
+      <p>👋 Hello,I am</p>
+      <h1>Nicolette Steenkamp</h1>
+      <h2 class="mb-5">Front-end developer based in South africa</h2>
+      <div>
+        <a class='btn btn-branding' href='/contact' title='contact Nicolette'>Contact me</a
+        >
+      </div>
+    </div>
+    <p class="text-center m-5">Featured projects - My choice projects</p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
           <img
-            src="images/yoga.png"
-            class="img-fluid rounded"
-            alt="yoga pose image"
+            src="images/yoghurt.png"
+            class="img-fluid"
+            alt="yoghurt-project"
           />
         </div>
-        <div class="col-md-6">
-          <h2 class="mb-3">Yoga app</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-            qui alias veniam excepturi rem dolor fugit dignissimos, sed
-            voluptatum blanditiis harum
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link" title="launch the app"
-              >Launch Yoga App</a
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Yoghurt Project</h2>
+            <p class="mb-5 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              quae voluptate dignissimos fugit minus placeat deleniti eveniet,
+              culpa nulla quo recusandae reiciendis voluptas blanditiis? Itaque
+              eos quae minima laborum nulla.
+            </p>
+            <a class='btn btn-branding' href='/projects' title='project-preview'>Learn more</a
             >
           </div>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <h2 class="mb-3">Weather App</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-            qui alias veniam excepturi rem dolor fugit dignissimos, sed
-            voluptatum blanditiis harum
-          </p>
-          <div class="mt-5 mb-5">
-            <a href="#" class="primary-link" title="launch the weather app"
-              >Launch Weather App</a
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              quae voluptate dignissimos fugit minus placeat deleniti eveniet,
+              culpa nulla quo recusandae reiciendis voluptas blanditiis? Itaque
+              eos quae minima laborum nulla.
+            </p>
+
+            <a class='btn btn-branding' href='/projects' title='project-preview'>Learn more</a
             >
           </div>
         </div>
-        <div class="col-md-6">
-          <img
-            src="images/weather.png"
-            class="img-fluid rounded"
-            alt="weather app image"
-          />
+        <div class="col d-none d-lg-block">
+          <img src="images/weather.png" class="img-fluid" alt="weather app" />
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
           <img
-            src="images/yogurt.png"
-            class="img-fluid rounded"
-            alt=" greek yoghurt image"
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="dictionary app"
           />
         </div>
-        <div class="col-md-6">
-          <h2 class="mb-3">Yogurt app</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-            qui alias veniam excepturi rem dolor fugit dignissimos, sed
-            voluptatum blanditiis harum
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link" title="launch the yogurt app"
-              >Launch Yogurt App</a
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Dictionary App</h2>
+            <p class="mb-5 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              quae voluptate dignissimos fugit minus placeat deleniti eveniet,
+              culpa nulla quo recusandae reiciendis voluptas blanditiis? Itaque
+              eos quae minima laborum nulla.
+            </p>
+            <a class='btn btn-branding' href='/projects' title='project-preview'>Learn more</a
             >
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a class='btn btn-branding mt-3' href='/contact' title='contact Nicolette'>Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <span class="email-link"><i class="fa-solid fa-envelope"></i></span>
+          <a
+            href="mailto:steenkampnicolette815@gmail"
+            class="email-link"
+            title="email link"
+          >
+            You've got mail</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.linkedin/in/nicolette-steenkamp"
+            target="_blank"
+            title="linked in"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/NicoletteSteenkamp"
+            target="_blank"
+            title="github"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+          <a
+            href="htpps://www.instagram.com/codedbyN.Steenkamp"
+            target="_blank"
+          >
+            <i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+      </footer>
+      <p class="text-center mt-5">
+        This project was coded by Nicolette Steenkamp and is
+        <a href="https://github.com/NicoletteSteenkamp/portfolio-project"
+          >open-sourced code.</a
+        >
+      </p>
     </div>
   </body>
 </html>
