@@ -1,11 +1,11 @@
 :root {
-  --popofcolor: deeppink;
-  --maincolor: #272142;
-  --stdcolor: black;
-  --tertiarycolor: white;
+  --popofcolor: #faf4fc;
+  --maincolor :#816f7d;
+  --stdcolor:#47294c;
+  --tertiarycolor: #010101;
   --heading-font-family: "Playfair Display", sans-serif;
   --secondary-font-family: "Poppins", sans-serif;
-  --altbackgroungcolor: #f9f7fe;
+  --altbackgroungcolor :#c3b9b7;
 }
 
 body {
